@@ -2,6 +2,8 @@ Documentação de estrutura base dos projetos.
 
 Pasta Raiz/ 
 
+
+* Sempre divida o js/css/html em arquivos diferentes
 (Colocar os arquivos '.js' e '.css' dentro da pasta 'static')
  - static/arquivo.javascript
  - static/arquivo.css
@@ -11,3 +13,8 @@ Pasta Raiz/
 
 (Mantenha o arquivo '.html' sempre dentro da pasta raiz e com o nome "index.html")
  - index.html
+
+(Para arquivos que compõe o backend ex: 'Python', 'Node'. Use a pasta backend)
+ - backend/
+
+(Os arquivos que não fazem parte da montagem da interface, deixe fora do diretório usando o .gitignore)
