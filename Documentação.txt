@@ -1,0 +1,13 @@
+Documentação de estrutura base dos projetos.
+
+Pasta Raiz/ 
+
+(Colocar os arquivos '.js' e '.css' dentro da pasta 'static')
+ - static/arquivo.javascript
+ - static/arquivo.css
+
+(Todos os arquivos usados para base de dados devem ficar dentro de uma pasta 'data'. OBS: Nunca salvar os arquivos diretamente aqui dentro, use subpastas)
+ - data/ 
+
+(Mantenha o arquivo '.html' sempre dentro da pasta raiz e com o nome "index.html")
+ - index.html
